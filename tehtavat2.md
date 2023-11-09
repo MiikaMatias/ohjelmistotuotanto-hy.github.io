@@ -142,7 +142,7 @@ Dependencies: python, Flask, editdistance
 Development dependencies: coverage, robotframework, robotframework-seleniumlibrary, requests
 ```
 
-*HUOM* ohjelma ei saa sisältää kuin ainoastaan tiedostossa index.py olevan print-komennon, joka tuostaa `Project`-olion merkkijonoesityksen!
+**HUOM** ohjelmaan *EI* saa lisätä yhtäkään print-komentoa! Muokkaa sen sijaan olemessaolevaa logiikkaa saadaksesi halutun ulostulon.
 
 Laajenna ja hio vielä ratkaisua siten, että esimerkkiprojektin osalta lopputulos näyttää suunilleen seuraavalta
 
